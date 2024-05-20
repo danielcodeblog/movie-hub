@@ -69,6 +69,9 @@ title {
 
 .card-img-top {
     padding: 2rem;
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: cover; 
 }
 
 .display-3 {
@@ -188,6 +191,13 @@ title {
 .info div {
     color: #aeb2b8;
     font-size: 1.5rem;
+}
+p {
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 a:hover {
